@@ -8,7 +8,6 @@ WORKDIR /opt/server
 COPY package.json .
 COPY *.js .
 RUN npm install
-USER mamatha
-RUN adduser mamatha
+USER expense
 CMD [ "node", "index.js" ]
 
