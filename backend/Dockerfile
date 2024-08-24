@@ -1,5 +1,5 @@
 ## used alpine 20 / official image 
-FROM node:20.17.0-alpine3.20 
+FROM node:20.15.0-alpine3.20
 EXPOSE 8080
 ENV DB_HOST=mysql
 ### i have user alpine image here ,so adding user the command will vary from image to image
